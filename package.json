@@ -1,24 +1,36 @@
 {
-  "name": "my-todolist",
-  "version": "0.1.0",
-  "dependencies": {
-    "body-parser": "^1.16.0",
-    "ejs": "^2.5.5",
-    "express": "^4.14.0",
-    "method-override": "^3.0.0",
-    "sanitizer": "^0.1.3"
-  },
+  "name": "todo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "test": "mocha --recursive --exit",
-    "sonar": "sonar-scanner"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "author": "riaan@entersekt.com",
-  "description": "Basic to do list exercise",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "firebase": "^10.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.1",
-    "nyc": "^14.1.1",
-    "supertest": "^4.0.2"
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
   }
 }

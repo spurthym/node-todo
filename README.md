@@ -1,19 +1,11 @@
-# node-todo-cicd
+<<<<<<< HEAD
+## Install:
+$ npm create vite@latest
 
-Run these commands:
+project name
 
+react and typescript
 
-`sudo apt install nodejs`
+npm run dev
 
-
-`sudo apt install npm`
-
-
-`npm install`
-
-`node app.js`
-
-or Run by docker compose
-
-test
-
+npm install @mui/material @emotion/react @emotion/styled
